@@ -55,7 +55,9 @@ cat sed awk grep() {
           *.xhtml) syntax="html";;
           /etc/apache*/*) syntax="httpd";;
           *.java) syntax="java";;
-          *.js)   syntax="javascript";;
+          *.js)   syntax="js";;
+          *.mjs)   syntax="js";;
+          *.json)   syntax="json";;
           *.jsp)  syntax="jsp";;
           *.lhs)  syntax="lhs";;
           *.lua)  syntax="lua";;
@@ -64,6 +66,7 @@ cat sed awk grep() {
           *.mk)   syntax="make";;
           *.objc) syntax="objc";;
           *.m)    syntax="objc";;
+          *.md)    syntax="markdown";;
           *.mm)   syntax="objc";;
           *.ocaml) syntax="ocaml";;
           *.ml)   syntax="ocaml";;
