@@ -11,7 +11,7 @@ How to install
 * Download the script or clone this repository in [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh) plugins directory:
 
         cd ~/.oh-my-zsh/custom/plugins
-        git clone git://github.com/ricardrobin/zsh-output-highlighting.git
+        git clone git@github.com:NathanMartinez/zsh-output-highlighting.git
 
 * Activate the plugin in `~/.zshrc`:
 
@@ -38,4 +38,4 @@ Thanks
 ------
 
 * [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh)
-* [This article that I totally ripped off !](http://b.inty.se/blag/syntax-highlighting-cat-sed-awk-etc) Thanks to his author ([inty](https://github.com/inty) that really wrote this piece of code (not me) ! That's why the licence is undefined: you should only use this for personal purposes ! 
+* [This article that I totally ripped off !](http://b.inty.se/blag/syntax-highlighting-cat-sed-awk-etc) Thanks to his author [inty](https://github.com/inty) that really wrote this piece of code (not me) ! That's why the licence is undefined: you should only use this for personal purposes ! 
